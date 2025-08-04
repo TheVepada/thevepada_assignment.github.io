@@ -1,0 +1,87 @@
+body{
+    color: #040404;
+    font-family:'Times New Roman', 'Times', 'serif';
+    background-color: #e0f7ea;
+    font-size: 18px;      /* Use px for base font size */
+    line-height: 1.6;
+}
+.author-details {
+    background: #e3eafc;
+    border: 1px solid #b3c6e7;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 2rem;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.author-details img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #b3c6e7;
+    margin-bottom: 1rem;
+}
+h1{
+    text-align: center;
+    color: #bf5adb;
+    padding: auto;
+    margin: auto;
+    font-size: 32px;      /* px for heading */
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    color:  #00695c;
+
+
+
+
+    margin: 0.5rem 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;    /* Add some letter spacing for better readability */
+    font-family: 'Arial', sans-serif; /* Use a sans-serif font for headings */
+    line-height: 1.4;       /* Adjust line height for better readability */
+}
+button {
+    background-color: #925adb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    margin: 1.5rem auto 0 auto;
+}
+#pic {
+    display: block;
+    margin: 2rem auto;
+    width: 100%;         /* Fill the section width */
+    max-width: 600px;    /* Optional: limit max width for large screens */
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#pic:hover {
+    transform: scale(1.15);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+}
+main section {
+    padding: 24px 18px;
+    margin: 24px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
